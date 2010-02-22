@@ -1,4 +1,4 @@
-  * [Welcome Home]
+  * [Home Home]
   * [Hardware Hardware]
   * [Software Software]
     * [Bootloader Bootloader]
