@@ -1,2 +1,2 @@
-  *[http://www.friendlyarm.net/downloads#schematics Schematics]
-  *[http://www.friendlyarm.net/downloads#datasheets Datasheets]
+  * [http://www.friendlyarm.net/downloads#schematics Schematics]
+  * [http://www.friendlyarm.net/downloads#datasheets Datasheets]
