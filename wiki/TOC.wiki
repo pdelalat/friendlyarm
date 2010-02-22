@@ -1,5 +1,7 @@
   * [Home Home]
+
   * [Hardware Hardware]
+
   * [Software Software]
     * [Bootloader Bootloader]
       * [Supervivi Supervivi]
@@ -9,3 +11,8 @@
       * [Qt Qtopia]
     * [WinCE WinCE]
     * [NoOS No OS]
+
+  * [References References]
+    * [Books Books]
+    * [Links Links]
+    * [Projects Projects]
