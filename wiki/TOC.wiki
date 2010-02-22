@@ -4,6 +4,8 @@
     * [Bootloader Bootloader]
       * [Supervivi Supervivi]
       * [uBoot u-Boot]
+    * [Android Android]
     * [Linux Linux]
+      * [Qt Qtopia]
     * [WinCE WinCE]
     * [NoOS No OS]
