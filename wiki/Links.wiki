@@ -1,4 +1,4 @@
-===Tutorials, HowTo's, Blogs===
+===Tutorials, HowTo, Blogs===
 
   * [http://www.thaieasyelec.com/Free-Service-from-ThaiEasyElec/ARM9-mini2440--micro2440-FriendlyARM-Tutorial.html Micro2440 / Mini2440 Tutorial]
 
