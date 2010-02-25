@@ -1,3 +1,0 @@
-  * [http://www.rockbox.org/wiki/Mini2440Port Rockbox for Mini2440]
-
-  * [http://code.google.com/p/rt-thread RT-Thread (RTOS)]
