@@ -19,7 +19,7 @@
 
   * [http://wiki.davincidsp.com/index.php/Category:Linux Excellent resource from TI]
 
-  * [http://http://wiki.davincidsp.com/index.php/Creating_a_Root_File_System_for_Linux_on_OMAP35x Excellent background material for building a rootfs for the FriendlyArm]
+  * [http://wiki.davincidsp.com/index.php/Creating_a_Root_File_System_for_Linux_on_OMAP35x Excellent background material for building a rootfs for the FriendlyArm]
 
   * [http://blog.leshak.ru/english/pages/ Some more HowTos]
 
