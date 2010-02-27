@@ -15,10 +15,21 @@
 
   * [http://www.electronics.diycinema.co.uk Mini2440 / embedded related ramblings (Blog)]
 
+  * [http://www.kerneltravel.net/downloads/Building.Embedded.Linux.Systems.pdf Excellent book on building embedded systems]
+
+  * [http://wiki.davincidsp.com/index.php/Category:Linux Excellent resource from TI]
+
+  * [http://http://wiki.davincidsp.com/index.php/Creating_a_Root_File_System_for_Linux_on_OMAP35x Excellent background material for building a rootfs for the FriendlyArm]
+
+  * [http://blog.leshak.ru/english/pages/ Some more HowTos]
+
+  * [http://www.electronics.diycinema.co.uk/ Some very interesting projects, check it out]
+
+===Linux-arm-kernel website===
+  * [http://lists.infradead.org/pipermail/linux-arm-kernel/ Keep reasonably up to date on kernel issues, search the months with <mini2440>]   
 
 ===Tools===
   * [http://code.google.com/p/mjpg-streamer-mini2440/ MJPG-Streamer for Mini2440]
-
 
 ===Projects===
   * [http://www.rockbox.org/wiki/Mini2440Port Rockbox for Mini2440]
