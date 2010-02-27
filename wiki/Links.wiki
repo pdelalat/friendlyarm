@@ -5,7 +5,9 @@
 
   * [http://mini2440.googlecode.com Mini2440 on Google Code]
 
-  * [http://mini2440-wonderland.googlecode.com Mini2440-Wonderland on Google Code (Italian)] - [http://translate.google.com/translate?u=http%3A%2F%2Fcode.google.com%2Fp%2Fmini2440-wonderland%2F&sl=auto&tl=en English Translation]
+  * [http://mini2440-wonderland.googlecode.com Mini2440-Wonderland (Italian)] - [http://translate.google.com/translate?u=http%3A%2F%2Fcode.google.com%2Fp%2Fmini2440-wonderland%2F&sl=auto&tl=en English Translation]
+
+  * [http://www.mikrocontroller.net/articles/Mini2440 Mini2440 Guide (German)] - [http://translate.google.com/translate?u=http%3A%2F%2Fwww.mikrocontroller.net%2Farticles%2FMini2440&sl=auto&tl=en English Translation]
 
   * [http://narnia.cs.ttu.edu/drupal/node/131 Deploying U-Boot, Linux kernel and GPE onto Mini2440]
 
@@ -13,7 +15,7 @@
 
   * [http://bill.station51.net Mini2440 - Micro2440 Blog (U-Boot compiling and HowTo)]
 
-  * [http://www.electronics.diycinema.co.uk Mini2440 / embedded related ramblings (Bill's Blog)]
+  * [http://www.electronics.diycinema.co.uk Mini2440 / embedded related ramblings (.ome very interesting projects)]
 
   * [http://www.kerneltravel.net/downloads/Building.Embedded.Linux.Systems.pdf Excellent book on building embedded systems]
 
@@ -23,13 +25,14 @@
 
   * [http://blog.leshak.ru/english/pages/ Some more HowTos]
 
-  * [http://www.electronics.diycinema.co.uk/ Some very interesting projects, check it out]
 
 ===Linux-arm-kernel website===
   * [http://lists.infradead.org/pipermail/linux-arm-kernel/ Keep reasonably up to date on kernel issues, search the months with <mini2440>]   
 
+
 ===Tools===
   * [http://code.google.com/p/mjpg-streamer-mini2440/ MJPG-Streamer for Mini2440]
+
 
 ===Projects===
   * [http://www.rockbox.org/wiki/Mini2440Port Rockbox for Mini2440]
