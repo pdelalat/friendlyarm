@@ -79,6 +79,14 @@ Depending on permission’s *sudo* may be required on some commands.
 [mini2440-bootstrap] # sudo chown -R 0:0 /home/user/mini2440-bootstrap/target
 }}}
 
+Makes all files in {{{[target]}}}owned by root.
+
+==Make the uImage==
+
+{{{
+[mini2440-bootstrap] # sudo ./uboot/mini2440/tools/mkimage –A arm –O linux -T kernel -C none –a 0x30008000 –e 0x30008000 -d kernel-bin/arch/arm/boot/zImage output/uImage
+}}}
+
 
 
 
