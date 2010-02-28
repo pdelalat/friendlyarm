@@ -1,0 +1,19 @@
+= Compiling the kernel, installing the kernel modules and making a JFFS2 rootfs for the FriendlyArm =
+
+==Download toolchain, u-boot and kernel==
+
+Go to:
+  * http://code.google.com/p/mini2440/downloads/list and download:
+
+{{{mini2440-bootstrap-v2.sh}}}
+
+ 
+Add your content here.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
