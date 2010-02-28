@@ -71,7 +71,7 @@ Depending on permission’s *sudo* may be required on some commands.
 [modules] # /home/user/mini240-bootstrap/2008-q3/arm-none-linux-gnueabi/bin/strip `find . –name “*.ko”`
 }}}
 
-   (note: two back ticks)
+   (note: two back ticks) This didn't work for me, so I ended up with a BIGGER uImage.
 
 ==Change target directory file permission’s==
 
