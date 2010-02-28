@@ -7,9 +7,9 @@ Go to:
 
    {{{mini2440-bootstrap-v2.sh}}}
 
-Study this script and then run
+Study this script and when you are ready to go, run this script:
 
-   {{{mini2440-filedownload.sh}}}
+   http://friendlyarm.googlecode.com/files/mini2440-file-download.sh
 
 This script will get you the toolchain, the latest kernel, u-boot, compile u-boot and set-up the required directories.  Note: there are some issues with u-boot, please see other posts on resolving this issue.  I just use an old version u-boot.bin as I am running a 64M dev board. 
 
