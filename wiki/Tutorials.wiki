@@ -5,35 +5,63 @@
 Go to:
   * http://code.google.com/p/mini2440/downloads/list and download:
 
-{{{mini2440-bootstrap-v2.sh}}}
+{{{
+mini2440-bootstrap-v2.sh
+}}}
 
-Study this script and then run {{{mini2440-filedownload.sh}}}
+Study this script and then run
+{{{
+mini2440-filedownload.sh
+}}}
 
 This script will get you the toolchain, the latest kernel, u-boot, compile u-boot and set-up the required directories.  Note: there are some issues with u-boot – please see other posts on resolving this issue.  I just use an old version u-boot.bin as I am running a 64M dev board. 
 
 ==Place in .profile on your Linux host==
 
+{{{
 export PATH=/home/user/mini2440-bootstrap/arm-2008q3/bin:$PATH
 
 CROSS_COMPILE=arm-none-linux-gnueabi-
 CC=”${CROSS_COMPILE}gcc –march=armv4t –mtune=arm920t”
 export CROSS_COMPILE
 export CC
+}}}
 
-Depending on permission’s <sudo> may be required on some commands.
+Depending on permission’s sudo may be required on some commands.
 
 ==Compile the kernel==
 (cd to mini2440-bootstrap)
+
 {{{
 [mini2440-bootstrap] # cd kernel/mini2440
 [mini2440] # make ARCH=arm O=../../kernel-bin/ mrproper
 [mini2440] # make ARCH=arm O=../../kernel-bin/
+}}}
              mini2440_defconfig (only do this once or you
              over-write any changes you make later)
 
+{{{
 [mini2440] # make ARCH=arm O=../../kernel-bin/ menuconfig
+}}}
+   subsequent invocations should bring in your 
+   previous configuration file or you can <Load an
+   alternative configuration file>)
 
-subsequent invocations should bring in your 
-previous configuration file or you can <Load an
-alternative configuration file>)
+Only do a mrproper when you want to start from scratch again.
+
+   configure the kernel to support the wanted file systems and MTD
+   select built-in and loadable kernel modules
+   save your .config as something unique, just in case 
+{{{
+[mini2440] # make ARCH=arm O=../../kernel-bin/ -j4  (4 threads)
+[mini2440] # make ARCH=arm O=../../kernel-bin/ -j4 modules
+}}}
+   backup configuration files if you want to do the following:
+{{{
+[mini2440] # make ARCH=arm distclean
+}}}
+{{{
+[mini2440] # sudo make ARCH=arm O=../../kernel-bin/ -j4
+ INSTALL_MOD_PATH=/home/user/mini2440-bootstrap/target/
+ modules_install
 }}}
