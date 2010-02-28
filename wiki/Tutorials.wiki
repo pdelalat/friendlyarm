@@ -38,11 +38,9 @@ Depending on permission’s *sudo* may be required on some commands.
 {{{
 [mini2440] # make ARCH=arm O=../../kernel-bin/ menuconfig
 }}}
-   subsequent invocations should bring in your 
-   previous configuration file or you can . . . Load an
-   alternative configuration file.
+   subsequent invocations should bring in your previous configuration file or you can <Load an alternative configuration file.>
 
-   *Only do a mrproper when you want to start from scratch again.*
+   Only do a mrproper when you want to start from scratch again.
 
    * configure the kernel to support the wanted file systems and MTD
    * select built-in and loadable kernel modules
@@ -80,8 +78,6 @@ Depending on permission’s *sudo* may be required on some commands.
 {{{
 [mini2440-bootstrap] # sudo chown -R 0:0 /home/user/mini2440-bootstrap/target
 }}}
-
-
 
 
 
