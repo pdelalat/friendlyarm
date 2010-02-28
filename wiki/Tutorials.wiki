@@ -88,5 +88,64 @@ Makes all files in {{{[target]}}}owned by root.
 }}}
 
 
+==Compile BusyBox==
 
+I started by compiling BusyBox as static.  When things are working properly you may want to re-compile as dynamic.
 
+{{{
+[busybox-1.13.3] # make defconfig
+[busybox-1.13.3] # make ARCH=arm menuconfig
+[busybox-1.13.3] # make clean
+[busybox-1.13.3] # make ARCH=arm
+[busybox-1.13.3] # make ARCH=arm CONFIG_PREFIX=/home/user/mini2440-bootstrap/target install 
+}}}
+
+==Configure the New Target Root File System==
+
+Following the tutorial:
+http://wiki.davincidsp.com/index.php/Creating_a_Root_File_System_for_Linux_on_OMAP35x
+
+check that the following are in {{{[target]}}}:
+
+{{{
+[target] # ls -la
+}}}
+
+   bin, linuxrc-> bin/busybox, sbin and usr
+
+Create the following directories:
+
+{{{
+[target] # mkdir –p dev
+[target] # mkdir –p etc
+[target] # mkdir –p lib
+[target] # mkdir –p mnt
+[target] # mkdir –p opt
+[target] # mkdir –p proc
+[target] # mkdir –p sys
+[target] # mkdir –p tmp
+[target] # mkdir –p var
+[target] # mkdir –p var/log
+[target] # mknod dev/null c 2 2  (chmod 777)
+[target] # mknod dev/console c 5 1 (chmod 600)
+}}}
+
+I suspect that the two mknod entries are not required as mdev.conf (in the following example) seems to either create these or over-write them.
+
+Use the /etc directory from this example rootfs (rootfsjffs2.gz).
+
+http://blog.leshak.ru/english/pages/how-to-install-u-boot-linux-2629-rootfsjffs2-busybox-1132-into-nand-qq2440/
+
+Note: /etc gets mounted into ram so don’t expect any changes you make to files in /etc to survive a re-boot!  
+
+==Add the Shared Libraries Applications will Require==
+
+{{{
+[mini2440-bootstrap] # cd /target/lib
+[lib] # cp –r /home/user/mini2440-bootstrap/arm-2008q3/arm-none-linux-gnueabi/libc/lib/* .
+[lib] # /home/user/mini2440-bootstrap/arm-2008q3/arm-none-linux-gnueabi/bin/strip `find . –name “*.ko”`
+}}}
+
+(note: two back ticks)  This last step didn’t work for me, so one ends up with a bigger image.
+
+==Creating a JFFS2 Root File System==
