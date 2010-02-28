@@ -154,18 +154,21 @@ Get mtd-tools and install them:
 
 {{{
 [mini2440-bootstrap] #sudo apt-get install mtd-tools
+}}}
+
+Make your rootfs.jffs2 image
+
+{{{
 [mini2440-bootstrap] # mkfs.jffs2 –lqnp –e 16 –r target –o output/my_rootfs.jffs2
 }}}
 
-Check my_rootfs.jffs2 by running the following script:
+==Verify your rootfs on the host==
 
-N.B. remove the line endings if doing a copy/paste!
+Check my_rootfs.jffs2 by running the following script (mount_jffs2.sh):
 
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+   N.B. ensure you have Linux line endings if doing a copy/paste!
 
-Shell script to mount/unmount JFFS2 using kernel memory emulating MTD
-
-Create a shell script (mount_jffs2.sh) from the following:
+===Shell script to mount/unmount JFFS2 using kernel memory emulating MTD===
 
 {{{
 #!/bin/sh
@@ -221,12 +224,11 @@ You can also use this script to unmount and unload the non-utilized kernel modul
 sudo ./mount_jffs2.sh output/my_rootfs.jffs2 unmount
 }}}
 
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 The above script was found here:
 
 http://wiki.maemo.org/Modifying_the_root_image
 
-Now follow Forrest Bao’s tutorial at:
+==Now follow Forrest Bao’s tutorial at:==
 
 http://narnia.cs.ttu.edu/drupal/node/131
 
