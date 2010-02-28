@@ -70,7 +70,7 @@ backup configuration files if you want to do the following:
 [modules] # /home/user/mini240-bootstrap/2008-q3/arm-none-linux-gnueabi/bin/strip `find . –name “*.ko”`
 }}}
 
-   (note: two back ticks) This didn't work for me, so I ended up with a BIGGER uImage.
+   (note: two back ticks)
 
 ==Change target directory file permission’s==
 
