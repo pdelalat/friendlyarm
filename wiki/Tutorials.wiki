@@ -51,13 +51,13 @@ Depending on permission’s *sudo* may be required on some commands.
 [mini2440] # make ARCH=arm O=../../kernel-bin/ -j4 modules
 }}}
 
-   backup configuration files if you want to do the following:
+backup configuration files if you want to do the following:
 
 {{{
-[mini2440] # make ARCH=arm distclean
+   [mini2440] # make ARCH=arm distclean
 }}}
 
-   install the kernel modules
+   now, install the kernel modules
 
 {{{
 [mini2440] # sudo make ARCH=arm O=../../kernel-bin/INSTALL_MOD_PATH=/home/user/mini2440-bootstrap/target/ modules_install
