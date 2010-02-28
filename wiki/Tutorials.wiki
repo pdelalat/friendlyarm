@@ -1,4 +1,4 @@
-=Compiling the kernel, installing kernel modules and making a JFFS2 rootfs for the Friendlyarm=
+=Compiling the kernel, installing kernel modules and making a JFFS2 rootfs for the Friendlyarm 64M dev board=
 
 ==Download toolchain, u-boot and kernel==
 
@@ -231,8 +231,16 @@ Now follow Forrest Bao’s tutorial at:
 http://narnia.cs.ttu.edu/drupal/node/131
 
 Used the u-boot.bin referenced here.
+
 Substitute your own kernel image.
 
+After you have loaded the kernel you can try the following test:
 
+{{{
+nand read 0x31000000 kernel 0x500000
+bootm 0x31000000
+}}}
 
+You should observe that the kernel gets further through the boot process, possibly to the place where the file system would try to mount.
 
+Now add your my_rootfs.jffs2 image.
