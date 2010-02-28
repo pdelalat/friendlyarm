@@ -30,10 +30,9 @@ Depending on permission’s *sudo* may be required on some commands.
 {{{
 [mini2440-bootstrap] # cd kernel/mini2440
 [mini2440] # make ARCH=arm O=../../kernel-bin/ mrproper
-[mini2440] # make ARCH=arm O=../../kernel-bin/
+[mini2440] # make ARCH=arm O=../../kernel-bin/ mini2440_defconfig
 }}}
-             mini2440_defconfig (only do this once or you
-             over-write any changes you make later)
+             (only do this once or you over-write any changes you make later)
 
 {{{
 [mini2440] # make ARCH=arm O=../../kernel-bin/ menuconfig
