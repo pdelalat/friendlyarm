@@ -1,4 +1,4 @@
-= Compiling the kernel, installing the kernel modules and making a JFFS2 rootfs for the FriendlyArm =
+=Compiling the kernel, installing kernel modules and making a JFFS2 rootfs for the FriendlyArm=
 
 ==Download toolchain, u-boot and kernel==
 
@@ -7,13 +7,33 @@ Go to:
 
 {{{mini2440-bootstrap-v2.sh}}}
 
- 
-Add your content here.
+Study this script and then run {{{mini2440-filedownload.sh}}}
 
+This script will get you the toolchain, the latest kernel, u-boot, compile u-boot and set-up the required directories.  Note: there are some issues with u-boot – please see other posts on resolving this issue.  I just use an old version u-boot.bin as I am running a 64M dev board. 
 
-= Details =
+==Place in .profile on your Linux host==
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+export PATH=/home/user/mini2440-bootstrap/arm-2008q3/bin:$PATH
+
+CROSS_COMPILE=arm-none-linux-gnueabi-
+CC=”${CROSS_COMPILE}gcc –march=armv4t –mtune=arm920t”
+export CROSS_COMPILE
+export CC
+
+Depending on permission’s <sudo> may be required on some commands.
+
+==Compile the kernel==
+(cd to mini2440-bootstrap)
+{{{
+[mini2440-bootstrap] # cd kernel/mini2440
+[mini2440] # make ARCH=arm O=../../kernel-bin/ mrproper
+[mini2440] # make ARCH=arm O=../../kernel-bin/
+             mini2440_defconfig (only do this once or you
+             over-write any changes you make later)
+
+[mini2440] # make ARCH=arm O=../../kernel-bin/ menuconfig
+
+subsequent invocations should bring in your 
+previous configuration file or you can <Load an
+alternative configuration file>)
+}}}
