@@ -231,7 +231,7 @@ http://wiki.maemo.org/Modifying_the_root_image
 
 http://narnia.cs.ttu.edu/drupal/node/131
 
-Used the u-boot.bin referenced here.
+I used the u-boot.bin referenced here {{{u-boot.bin}}}.
 
 Substitute your own kernel image.
 
