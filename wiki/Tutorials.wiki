@@ -1,4 +1,4 @@
-=Compiling the kernel, installing kernel modules and making a JFFS2 rootfs for the FriendlyArm=
+=Compiling the kernel, installing kernel modules and making a JFFS2 rootfs for the Friendlyarm=
 
 ==Download toolchain, u-boot and kernel==
 
@@ -88,9 +88,9 @@ Makes all files in {{{[target]}}}owned by root.
 }}}
 
 
-==Compile BusyBox==
+==Compile Busybox==
 
-I started by compiling BusyBox as static.  When things are working properly you may want to re-compile as dynamic.
+I started by compiling Busybox as static.  When things are working properly you may want to re-compile as dynamic.
 
 {{{
 [busybox-1.13.3] # make defconfig
@@ -149,3 +149,90 @@ Note: /etc gets mounted into ram so don’t expect any changes you make to files
 (note: two back ticks)  This last step didn’t work for me, so one ends up with a bigger image.
 
 ==Creating a JFFS2 Root File System==
+
+Get mtd-tools and install them:
+
+{{{
+[mini2440-bootstrap] #sudo apt-get install mtd-tools
+[mini2440-bootstrap] # mkfs.jffs2 –lqnp –e 16 –r target –o output/my_rootfs.jffs2
+}}}
+
+Check my_rootfs.jffs2 by running the following script:
+
+N.B. remove the line endings if doing a copy/paste!
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+Shell script to mount/unmount JFFS2 using kernel memory emulating MTD
+
+Create a shell script (mount_jffs2.sh) from the following:
+
+{{{
+#!/bin/sh
+ JFFSIMG=$1 # jffs image
+ MP="/media/jffs2" # mount point
+ MTDBLOCK="/tmp/mtdblock0" # MTD device file
+ UMNT=""
+
+ echo "$0" | grep unmount_ >/dev/null 2>&1
+ [ $? -eq 0 ] && UMNT=1
+ if [ $# -gt 1 -a x"$2"x = x"unmount"x ]; then
+   UMNT=1
+ fi
+
+ if [ x"${UMNT}"x = x""x ]; then
+   if [ ! -b ${MTDBLOCK} ] ; then
+     mknod ${MTDBLOCK} b 31 0 || exit 1
+   fi
+   modprobe mtdblock
+   modprobe mtdram total_size=65536 erase_size=256
+   modprobe jffs2
+   dd if=${JFFSIMG} of=${MTDBLOCK}
+   [ ! -d ${MP} ] && mkdir -p ${MP}
+   mount -t jffs2 ${MTDBLOCK} ${MP}
+ else
+   umount ${MP}
+   if [ $? -ne 0 ]; then
+     echo "Cannot unmount JFFS2 at $MP" && exit 1
+   fi
+   modprobe -r jffs2
+   modprobe -r mtdram
+   modprobe -r mtdblock
+ fi 
+}}}
+
+Place this script in the {{{[mini2440-bootstrap]}}} directory.
+
+Make the shell script executable:
+
+{{{
+chmod a+x mount_jffs2.sh
+}}}
+
+Usage: (from {{{[mini2440-bootstrap]}}})
+
+{{{
+sudo ./mount_jffs2.sh output/my_rootfs.jffs2
+}}}
+
+You can also use this script to unmount and unload the non-utilized kernel modules:
+
+{{{
+sudo ./mount_jffs2.sh output/my_rootfs.jffs2 unmount
+}}}
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+The above script was found here:
+
+http://wiki.maemo.org/Modifying_the_root_image
+
+Now follow Forrest Bao’s tutorial at:
+
+http://narnia.cs.ttu.edu/drupal/node/131
+
+Used the u-boot.bin referenced here.
+Substitute your own kernel image.
+
+
+
+
