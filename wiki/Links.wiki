@@ -25,8 +25,10 @@
 
   * [http://blog.leshak.ru/english/pages/ Some more HowTos]
 
+  * [http://rndhax.blogspot.com/2010/03/friendlyarm-mini2440-huawei-e160-hsdpa.html Mini2440 + Huawei E160 HSDPA USB modem]
 
-===Linux-arm-kernel website===
+
+===Linux ARM Kernel website===
   * [http://lists.infradead.org/pipermail/linux-arm-kernel/ Keep reasonably up to date on kernel issues, search the months with <mini2440>]   
 
 
