@@ -37,29 +37,19 @@ Depending on permission’s *sudo* may be required on some commands.
 [mini2440-bootstrap] # cd kernel/mini2440
 [mini2440] # make ARCH=arm O=../../kernel-bin/ mrproper
 [mini2440] # make ARCH=arm O=../../kernel-bin/ mini2440_defconfig
-}}}
-             (only do this once or you over-write any changes you make later)
-
-{{{
 [mini2440] # make ARCH=arm O=../../kernel-bin/ menuconfig
 }}}
-   subsequent invocations should bring in your previous configuration file or you can <Load an alternative configuration file.>
+on subsequent invocations <Load an alternative configuration file.> which you have saved as a unique name.  When finished <Save as an alternative configuration file> by the name <.config>  Back it up by re-saving as an unique name.
 
-   Only do a mrproper when you want to start from scratch again.
+On subsequent compilations I got an error saying that my {{{[kernel]}}} directory was not clean and to do a {{{mrproper}}}.  I found that this was not good enough and had to do a {{{make ARCH=arm distclean}}}
 
    * configure the kernel to support the wanted file systems and MTD
    * select built-in and loadable kernel modules
-   * save your .config as something unique, just in case. 
+   * save your .config as something unique 
 
 {{{
 [mini2440] # make ARCH=arm O=../../kernel-bin/ -j4
 [mini2440] # make ARCH=arm O=../../kernel-bin/ -j4 modules
-}}}
-
-backup configuration files if you want to do the following:
-
-{{{
-   [mini2440] # make ARCH=arm distclean
 }}}
 
    now, install the kernel modules
