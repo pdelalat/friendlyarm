@@ -17,7 +17,7 @@ and run it:
 
    {{{sudo ./file-download.sh}}}
 
-This script will get you the toolchain, the latest kernel, u-boot, compile u-boot and set-up the required directories.  Note: there are some issues with u-boot, please see other posts on resolving this issue.  I use an old version {{{u-boot.bin}}} as I am running a 64M dev board. 
+This script will get you the toolchain, the latest kernel, u-boot, compile u-boot and set-up the required directories.  Note: there are some issues with u-boot, please see other posts on resolving this issue.  I use an old version  {{{u-boot.bin}}}  as I am running a 64M dev board. 
 
 ==Place in .profile on your Linux host==
 
@@ -28,7 +28,7 @@ This script will get you the toolchain, the latest kernel, u-boot, compile u-boo
  * export CROSS_COMPILE
  * export CC
 
-Depending on permission’s *sudo* may be required on some commands.
+Depending on permission’s  *sudo*  may be required on some commands.
 
 ==Compile the kernel==
 (cd to mini2440-bootstrap)
@@ -39,13 +39,13 @@ Depending on permission’s *sudo* may be required on some commands.
 [mini2440] # make ARCH=arm O=../../kernel-bin/ mini2440_defconfig
 [mini2440] # make ARCH=arm O=../../kernel-bin/ menuconfig
 }}}
-on subsequent invocations <Load an alternative configuration file.> which you have saved as a unique name.  When finished <Save as an alternative configuration file> by the name  {{{.config}}}  Back it up by re-saving as an unique name.
+on subsequent invocations  {{{<Load an alternative configuration file.>}}}  which you have saved as a unique name.  When finished  {{{<Save as an alternative configuration file>}}}  by the name  {{{.config}}} .  Back it up by re-saving as an unique name.
 
-On subsequent compilations I got an error saying that my  {{{[kernel]}}} directory was not clean and to do a  {{{mrproper}}}.  I found that this was not good enough and had to do a  {{{make ARCH=arm distclean}}}
+On subsequent compilations I got an error saying that my  {{{[kernel]}}}  directory was not clean and to do a  {{{mrproper}}} .  I found that this was not good enough and had to do a  {{{make ARCH=arm distclean}}} .
 
    * configure the kernel to support the wanted file systems and MTD
    * select built-in and loadable kernel modules
-   * save your  {{{.config}}} as something unique 
+   * save your  {{{.config}}}  as something unique 
 
 {{{
 [mini2440] # make ARCH=arm O=../../kernel-bin/ -j4
@@ -74,7 +74,7 @@ On subsequent compilations I got an error saying that my  {{{[kernel]}}} directo
 [mini2440-bootstrap] # sudo chown -R 0:0 /home/user/mini2440-bootstrap/target
 }}}
 
-Makes all files in {{{[target]}}}owned by root.
+Makes all files in  {{{[target]}}}  owned by root.
 
 ==Make the uImage==
 
@@ -100,7 +100,7 @@ I started by compiling Busybox as static.  When things are working properly you 
 Following the tutorial:
 http://wiki.davincidsp.com/index.php/Creating_a_Root_File_System_for_Linux_on_OMAP35x
 
-check that the following are in {{{[target]}}}:
+check that the following are in {{{[target]}}} :
 
 {{{
 [target] # ls -la
