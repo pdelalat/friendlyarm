@@ -29,7 +29,7 @@
 
 
 ===Linux ARM Kernel website===
-  * [http://lists.infradead.org/pipermail/linux-arm-kernel/ Keep reasonably up to date on kernel issues, search the months with <mini2440>]   
+  * [http://lists.infradead.org/pipermail/linux-arm-kernel/ Keep reasonably up to date on kernel issues, search the months with <mini2440 or s3c24**>]   
 
 
 ===Tools===
