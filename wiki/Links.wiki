@@ -27,6 +27,8 @@
 
   * [http://rndhax.blogspot.com/2010/03/friendlyarm-mini2440-huawei-e160-hsdpa.html Mini2440 + Huawei E160 HSDPA USB modem]
 
+  * [http://www.domodom.fr/spip/index.php?lang=en Mini2440 and WinCE 6.0]
+
 
 ===Linux ARM Kernel website===
   * [http://lists.infradead.org/pipermail/linux-arm-kernel/ Keep reasonably up to date on kernel issues, search the months with <mini2440 or s3c24**>]   
