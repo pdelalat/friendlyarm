@@ -7,7 +7,7 @@ The following links will guide you through all these stages, from the generation
   * Development tools installation, Windows CE image generation: [http://www.domodom.fr/spip/spip.php?article6&lang=en]
   * Customization of a Windows CE Image: [http://www.domodom.fr/spip/spip.php?article16&lang=en]
   * Windows CE image upload to mini2440: [http://www.domodom.fr/spip/spip.php?article15&lang=en]
-  * A first application development* : http://www.domodom.fr/spip/spip.php?article18&lang=en
+  * A first application development: http://www.domodom.fr/spip/spip.php?article18&lang=en
 
 Note : 
 Some versions of the Supervivi bootloader are not compatible with CE 6.0 images. 
