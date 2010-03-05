@@ -9,6 +9,6 @@ The following links will guide you through all these stages, from the generation
   * Windows CE image upload to mini2440: [http://www.domodom.fr/spip/spip.php?article15&lang=en]
   * A first application development: http://www.domodom.fr/spip/spip.php?article18&lang=en
 
-Note : 
+Note:
 Some versions of the Supervivi bootloader are not compatible with CE 6.0 images. 
 It is possible that the bootloader of your board should be updated, see the following procedure: [http://www.domodom.fr/spip/spip.php?article12&lang=en]
