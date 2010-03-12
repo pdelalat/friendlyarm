@@ -63,7 +63,7 @@ On subsequent compilations I got an error saying that my  {{{[kernel]}}}  direct
 {{{
 # cd /home/user/mini2440-bootstrap/target/lib/modules
 
-[modules] # /home/user/mini240-bootstrap/2008-q3/arm-none-linux-gnueabi/bin/strip `find . –name “*.ko”`
+[modules] # /home/user/mini240-bootstrap/arm-2008-q3/arm-none-linux-gnueabi/bin/strip `find . –name “*.ko”`
 }}}
 
    (note: two back ticks)
