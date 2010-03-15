@@ -138,7 +138,12 @@ Note: /etc gets mounted into ram so don’t expect any changes you make to files
 {{{
 [mini2440-bootstrap] # cd /target/lib
 [lib] # cp –r /home/user/mini2440-bootstrap/arm-2008q3/arm-none-linux-gnueabi/libc/lib/* .
-[lib] # /home/user/mini2440-bootstrap/arm-2008q3/arm-none-linux-gnueabi/bin/strip-debug *
+}}}
+
+strip debug info from all libs, if you are worried about the size
+
+{{{
+[lib] # /home/user/mini2440-bootstrap/arm-2008q3/arm-none-linux-gnueabi/bin/strip -d *
 }}}
 
 ==Creating a JFFS2 Root File System==
