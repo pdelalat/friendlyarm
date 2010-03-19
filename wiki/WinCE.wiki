@@ -1,5 +1,8 @@
 ===How to Start===
 [WinCE_HowToStart]
 
+===English BSP===
+[EnglishBSP]
+
 ===All files deleted after power off===
 [http://www.friendlyarm.net/forum/topic/151 Forum Thread]
