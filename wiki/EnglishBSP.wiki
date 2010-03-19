@@ -1,4 +1,4 @@
-#An english BSP for the mini2440 is available
+#summary An english BSP for the mini2440 is available
 
 Errol has generated a Windows CE 6.0 BSP by putting together some updates, fixes from the forum and parameters that seem to be usefull for the most of us. This BSP can be downloaded in the *Downloads* section.
 
