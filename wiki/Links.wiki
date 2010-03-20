@@ -34,6 +34,10 @@
   * [http://lists.infradead.org/pipermail/linux-arm-kernel/ Keep reasonably up to date on kernel issues, search the months with <mini2440 or s3c24**>]   
 
 
+===Android ===
+  * [http://gitorious.org/android-mini2440 Android for Mini2440]
+
+
 ===Tools===
   * [http://code.google.com/p/mjpg-streamer-mini2440/ MJPG-Streamer for Mini2440]
 
