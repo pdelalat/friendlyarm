@@ -1,0 +1,1 @@
+[http://gitorious.org/android-mini2440 Android for Mini2440]
