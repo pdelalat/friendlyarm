@@ -1,1 +1,3 @@
-Software
+ * [http://www.friendlyarm.net/downloads FriendlyARM Downloads]
+
+ * [http://code.google.com/p/friendlyarm/downloads More FriendlyARM Downloads]
