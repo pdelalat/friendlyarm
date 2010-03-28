@@ -27,7 +27,7 @@
 
   * [http://wiki.davincidsp.com/index.php/Creating_a_Root_File_System_for_Linux_on_OMAP35x Background material for building a rootfs for the FriendlyArm]
 
-  * [http://blog.leshak.ru/english/pages/ Some more HowTos]
+  * [http://blog.leshak.ru/english/pages/ Some more Mini2440 HowTos (Cross-Toolchain, Debian...)]
 
   * [http://rndhax.blogspot.com/2010/03/friendlyarm-mini2440-huawei-e160-hsdpa.html Mini2440 + Huawei E160 HSDPA USB modem]
 
