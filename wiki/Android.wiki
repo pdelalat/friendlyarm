@@ -1,1 +1,3 @@
 [http://gitorious.org/android-mini2440 Android for Mini2440]
+
+[http://mini2440.spaceopera.org/site/developmentenviroment/stepbystep/index.html Running Android from SD card]
