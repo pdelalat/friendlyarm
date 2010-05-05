@@ -1,24 +1,25 @@
 #summary An english BSP for the mini2440 is available
 
-Errol has generated a Windows CE 6.0 BSP by putting together some updates, fixes from the forum and parameters that seem to be usefull for the most of us. This BSP can be downloaded in the *Downloads* section.
+Errol has generated a Windows CE 6.0 BSP by putting together some updates, fixes from the forum ([http://www.friendlyarm.net/forum/topic/682 topic]) and parameters that seem to be useful for the most of us. This BSP can be downloaded in the *Downloads* section. 
 
 = Details = 
-*Fixed:*<br>
-Network crash fix.<br>
-Multi CPU compile issue with SD driver. I hope. Couldn't test in Virtual Machine.<br>
-<br>*Changed:*
-Auto launch of touch screen calibration after first boot.<br>
-English language.<br>
-Network set to DHCP<br>
-<br>
-*Removed:*<br>  
-Chinese fonts<br>
-<br>
-*Added:*<br>
-USB Remote NDIS Class driver (needed for Activesync) <br>
-Windows Console<br>
-SPI driver by domdom<br>
-Clock Synchronization registry entry, if SNTP client is included.<br>
-User Manager control panel applet by domdom if FTP server or Telnet server or Webserver is included in the image.<br>
+*Fixed:*
+ * Network crash fix.
+ * Multi CPU compile issue with SD driver. I hope. Couldn't test in Virtual Machine.
+
+*Changed:*
+ * Auto launch of touch screen calibration after first boot.
+ * English language.
+ * Network set to DHCP
+
+*Removed:*
+ * Chinese fonts
+
+*Added:*
+ * USB Remote NDIS Class driver (needed for Activesync)
+ * Windows Console
+ * SPI driver by domdom
+ * Clock Synchronization registry entry, if SNTP client is included.
+ * User Manager control panel applet by domdom, if FTP server or Telnet server or Webserver is included in the image.
 
 WARNING: back up any old MINI2440 folders in PLATFORM or OSDesigns, as this will overwrite it.
