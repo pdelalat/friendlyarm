@@ -24,4 +24,4 @@ The following links will guide you through all these stages, from the generation
 
 Note:
 Some versions of the Supervivi bootloader are not compatible with WinCE 6.0 images. 
-It is possible that the bootloader of your board should be updated, see the following procedure: [hhttp://www.domodom.fr/spip/Mise-a-jour-du-bootloader.html]
+It is possible that the bootloader of your board should be updated, see the following procedure: [http://www.domodom.fr/spip/Mise-a-jour-du-bootloader.html]
