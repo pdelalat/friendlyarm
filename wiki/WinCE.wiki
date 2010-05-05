@@ -1,11 +1,8 @@
-===How to Start===
+===WinCE 6.0 How to Start===
 [WinCE_HowToStart]
 
-===English BSP===
+===WinCE 6.0 English BSP===
 [EnglishBSP]
 
 ===All files deleted after power off===
 [http://www.friendlyarm.net/forum/topic/151 Forum Thread]
-
-===How to drive GPIOs===
-A Windows CE 6.0 GPIO driver, with c++, C# and VB.Net sample application : http://www.domodom.fr/spip/A-GPIO-driver-for-mini2440.html
