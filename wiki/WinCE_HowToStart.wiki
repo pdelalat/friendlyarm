@@ -5,7 +5,7 @@ When Windows CE runs on the mini2440, it is then possible to develop Windows CE 
 
 The following links will guide you through all these stages, from the generation of the Windows CE image to a first application development:
 
-  * Development tools installation, WinCE image generation:
+  * Development tools installation, WinCE image generation [EnglishBSP]:
     [http://www.domodom.fr/spip/Generer-une-image-Windows-CE-pour.html]
 
   * Customization of a WinCE image:
