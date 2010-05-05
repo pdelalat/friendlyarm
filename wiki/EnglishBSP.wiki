@@ -2,7 +2,7 @@
 
 Errol has generated a Windows CE 6.0 BSP by putting together some updates, fixes from the forum ([http://www.friendlyarm.net/forum/topic/682 topic]) and parameters that seem to be useful for the most of us. This BSP can be downloaded in the *Downloads* section. 
 
-= Details = 
+=== Details ===
 *Fixed:*
  * Network crash fix.
  * Multi CPU compile issue with SD driver. I hope. Couldn't test in Virtual Machine.
