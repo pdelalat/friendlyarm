@@ -22,4 +22,4 @@ Errol has generated a Windows CE 6.0 BSP by putting together some updates, fixes
  * Clock Synchronization registry entry, if SNTP client is included.
  * User Manager control panel applet by domdom, if FTP server or Telnet server or Webserver is included in the image.
 
-WARNING: back up any old MINI2440 folders in PLATFORM or OSDesigns, as this will overwrite it.
+*WARNING*: back up any old MINI2440 folders in PLATFORM or OSDesigns, as this will overwrite it.
