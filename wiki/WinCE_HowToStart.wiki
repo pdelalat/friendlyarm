@@ -18,7 +18,7 @@ The following links will guide you through all these stages, from the generation
     [http://www.domodom.fr/spip/Ma-premiere-application-sous.html]
 
   * WinCE drivers:
-    [http://www.domodom.fr/spip/Ma-premiere-application-sous.html GPIO], 
+    [http://www.domodom.fr/spip/A-GPIO-driver-for-mini2440.html GPIO], 
     [http://www.domodom.fr/spip/Un-driver-SPI-pour-la-mini2440.html SPI], 
     [http://www.domodom.fr/spip/Utiliser-le-driver-I2C-dans-une.html I2C]
 
