@@ -29,6 +29,7 @@
 
 ===WinCE===
   * [http://www.domodom.fr/spip/index.php?lang=en Mini2440 and WinCE 6.0]
+  * [http://www.sereno-online.com/site/2010/05/11/qt-4-6-2-installation-procedure-friendlyarm-mini-2440-windows-ce-5-0/ Qt 4.6.2 for WinCE5 on Mini2440]
 
 
 ==Tools==
