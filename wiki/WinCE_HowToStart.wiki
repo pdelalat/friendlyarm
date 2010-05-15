@@ -6,22 +6,22 @@ When Windows CE runs on the mini2440, it is then possible to develop Windows CE 
 The following links will guide you through all these stages, from the generation of the Windows CE image to a first application development:
 
   * Development tools installation, WinCE image generation ([EnglishBSP]):
-    [http://www.domodom.fr/spip/Generer-une-image-Windows-CE-pour.html]
+    [http://www.domodom.fr/spip/Generer-une-image-Windows-CE-pour.html?lang=en]
 
   * Customization of a WinCE image:
-    [http://www.domodom.fr/spip/Customisation-de-notre-Image.html]
+    [http://www.domodom.fr/spip/Customisation-de-notre-Image.html?lang=en]
 
   * WinCE image upload:
-    [http://www.domodom.fr/spip/Telecharger-une-image-Windows-CE.html]
+    [http://www.domodom.fr/spip/Telecharger-une-image-Windows-CE.html?lang=en]
 
   * A first application development:
-    [http://www.domodom.fr/spip/Ma-premiere-application-sous.html]
+    [http://www.domodom.fr/spip/Ma-premiere-application-sous.html?lang=en]
 
   * WinCE drivers:
-    [http://www.domodom.fr/spip/A-GPIO-driver-for-mini2440.html GPIO], 
-    [http://www.domodom.fr/spip/Un-driver-SPI-pour-la-mini2440.html SPI], 
-    [http://www.domodom.fr/spip/Utiliser-le-driver-I2C-dans-une.html I2C]
+    [http://www.domodom.fr/spip/A-GPIO-driver-for-mini2440.html?lang=en GPIO], 
+    [http://www.domodom.fr/spip/Un-driver-SPI-pour-la-mini2440.html?lang=en SPI], 
+    [http://www.domodom.fr/spip/Utiliser-le-driver-I2C-dans-une.html?lang=en I2C]
 
 Note:
 Some versions of the Supervivi bootloader are not compatible with WinCE 6.0 images. 
-It is possible that the bootloader of your board should be updated, see the following procedure: [http://www.domodom.fr/spip/Mise-a-jour-du-bootloader.html]
+It is possible that the bootloader of your board should be updated, see the following procedure: [http://www.domodom.fr/spip/Mise-a-jour-du-bootloader.html?lang=en]
