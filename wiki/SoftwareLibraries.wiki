@@ -2,7 +2,7 @@
 
 = Introduction =
 
-Add your content here.
+Software Libraries for FriendlyARM Mini 2440
 
 
 = Details =
