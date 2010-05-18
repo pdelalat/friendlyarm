@@ -10,7 +10,7 @@
     * [NoOS NoOS]
 
   * [Libraries Software Libraries]
-    * [SoftwareLibraries Libraries]
+    * [SoftwareLibraries Software Libraries]
 
   * [References References]
     * [Books Books]
