@@ -4,7 +4,7 @@
 
 This page contains links to software tools and libraries useful to develop applications for FriendlyARM Boards.
 
-= Integrated Development Environment =
+= Integrated Development Environments =
 
  * [http://www.eclipse.org/ Eclipse - IDE]
 
