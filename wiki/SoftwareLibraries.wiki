@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Software Libraries for FriendlyARM Mini 2440
 
 = Introduction =
 
