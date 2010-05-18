@@ -7,6 +7,4 @@ This page contains links to software tools and libraries useful to develop appli
 
 = Application Frameworks =
 
-==Graphical User Interface==
-
-  * [http://qt.nokia.com Qt Application Framework]
+  * [http://qt.nokia.com Qt - GUI Application Framework]
