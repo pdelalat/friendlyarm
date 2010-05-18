@@ -2,11 +2,11 @@
 
 = Introduction =
 
-Software Libraries for FriendlyARM Mini 2440
+This page contains links to software tools and libraries useful to develop applications for FriendlyARM Boards.
 
 
-= Details =
+= Application Framework =
 
-==GUI==
+==Graphical User Interface==
 
   * [http://qt.nokia.com Qt Application Framework]
