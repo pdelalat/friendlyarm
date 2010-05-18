@@ -8,3 +8,7 @@ This page contains links to software tools and libraries useful to develop appli
 = Application Frameworks =
 
   * [http://qt.nokia.com Qt - GUI Application Framework]
+
+= Graphical User Interface = 
+
+  * [http://qwt.sourceforge.net/ GUI Components and utility classes (2D plot widget it provides scales, sliders, dials, compasses, thermometers, wheels and knobs)]
