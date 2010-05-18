@@ -5,7 +5,7 @@
 This page contains links to software tools and libraries useful to develop applications for FriendlyARM Boards.
 
 
-= Application Framework =
+= Application Frameworks =
 
 ==Graphical User Interface==
 
