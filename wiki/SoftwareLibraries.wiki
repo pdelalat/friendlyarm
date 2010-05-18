@@ -1,4 +1,4 @@
-#summary Software Libraries for FriendlyARM Mini 2440
+#summary Software Libraries for FriendlyARM Boards
 
 = Introduction =
 
