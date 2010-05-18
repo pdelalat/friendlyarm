@@ -9,6 +9,9 @@
     * [WinCE WinCE]
     * [NoOS NoOS]
 
+  * [Libraries Libraries]
+    * [Libraries SoftwareLibraries]
+
   * [References References]
     * [Books Books]
     * [Links Links]
