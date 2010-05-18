@@ -11,4 +11,4 @@ This page contains links to software tools and libraries useful to develop appli
 
 = Libraries = 
 
-  * [http://qwt.sourceforge.net/ GUI Components and utility classes (2D plot widget, scales, sliders, dials, compasses, thermometers, wheels and knobs)]
+  * [http://qwt.sourceforge.net/ Qwt - GUI Components and utility classes (2D plot widget, scales, sliders, dials, compasses, thermometers, wheels and knobs)]
