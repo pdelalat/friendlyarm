@@ -4,4 +4,4 @@
 
  * [http://my.opera.com/vinodmunikoti/blog/manual-for-compiling-android-for-mini2440 Compiling Android]
 
- * [https://sites.google.com/site/belina76/android-booting Booting Android]
+ * [http://sites.google.com/site/belina76/android-booting Booting Android]
