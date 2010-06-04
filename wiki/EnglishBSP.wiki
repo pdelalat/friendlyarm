@@ -1,6 +1,6 @@
 #summary An english BSP for the mini2440 is available
 
-Errol has generated a Windows CE 6.0 BSP by putting together some updates, fixes from the forum ([http://www.friendlyarm.net/forum/topic/682 topic]) and parameters that seem to be useful for the most of us. This BSP can be downloaded in the *Downloads* section. 
+Errol has generated a Windows CE 6.0 BSP by putting together some updates, fixes from the forum ([http://www.friendlyarm.net/forum/topic/682 topic]) and parameters that seem to be useful for the most of us. This BSP can be downloaded in the *Downloads* section: [http://friendlyarm.googlecode.com/files/MINI2440BSP.zip MINI2440BSP.zip]
 
 === Details ===
 *Fixed:*
