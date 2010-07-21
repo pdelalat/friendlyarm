@@ -8,7 +8,7 @@
 ===Linux===
   * [http://labs.kernelconcepts.de/Projects/Micro2440/ Micro2440 / Mini2440 Tools and Board Support]
   * [http://mini2440.googlecode.com Mini2440 on Google Code]
-  * [http://www.programmers-projects.de/projekt/mini2440-entwicklungsboard Another Mini2440 Linux kernel project (German)]- [http://translate.google.com/translate?u=http%3A%2F%2Fwww.programmers-projects.de%2projekt%2mini2440-entwicklungsboard&sl=de&tl=en English Translation]
+  * [http://www.programmers-projects.de/projekt/mini2440-entwicklungsboard Another Mini2440 Linux kernel project (German)]- [http://translate.google.com/translate?u=http%3A%2F%2Fwww.programmers-projects.de%2Fprojekt%2Fmini2440-entwicklungsboard&sl=de&tl=en English Translation]
   * [http://mini2440-wonderland.googlecode.com Mini2440-Wonderland (Italian)] - [http://translate.google.com/translate?u=http%3A%2F%2Fcode.google.com%2Fp%2Fmini2440-wonderland%2F&sl=auto&tl=en English Translation]
   * [http://narnia.cs.ttu.edu/drupal/node/131 Deploying U-Boot, Linux kernel and GPE onto Mini2440]
   * [http://wiki.linuxmce.org/index.php/Mini2440 Mini2440 U-Boot and Linux kernel HowTo]
