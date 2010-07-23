@@ -3,6 +3,7 @@
   * [http://www.thaieasyelec.com/Free-Service-from-ThaiEasyElec/ARM9-mini2440--micro2440-FriendlyARM-Tutorial.html Micro2440 / Mini2440 Tutorial]
   * [http://www.mikrocontroller.net/articles/Mini2440 Mini2440 Guide (German)] - [http://translate.google.com/translate?u=http%3A%2F%2Fwww.mikrocontroller.net%2Farticles%2FMini2440&sl=de&tl=en English Translation]
   * [http://www.mikrocontroller.net/articles/Micro2440 Micro2440 Guide (German)] - [http://translate.google.com/translate?u=http%3A%2F%2Fwww.mikrocontroller.net%2Farticles%2FMicro2440&sl=de&tl=en English Translation]
+  * [http://farm2440.blogspot.com/ Qt 2.2 Tutorials]
   * [http://www.electronics.diycinema.co.uk Mini2440 / embedded related ramblings (some very interesting projects)]
 
 ===Linux===
