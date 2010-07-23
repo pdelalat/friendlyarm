@@ -8,7 +8,7 @@
     * [U-Boot U-Boot]
   * [Linux Linux]
     * [Android Android]
-    * [Qt Qtopia]
+    * [Qt Qt/Qtopia]
   * [WinCE WinCE]
   * [NoOS NoOS]
 
