@@ -5,5 +5,5 @@ http://friendlyarm.googlecode.com/files/qt_lang3.jpg
 http://friendlyarm.googlecode.com/files/qt_lang4.jpg
 
 ===Creating a Hello world app===
-http://farm2440.blogspot.com/2010/07/hello-world-with-gui-application-for.html
-http://farm2440.blogspot.com/2010/07/uploading-application-and-creating.html
+ # [http://farm2440.blogspot.com/2010/07/hello-world-with-gui-application-for.html Creating Compiling]
+ # [http://farm2440.blogspot.com/2010/07/uploading-application-and-creating.html Uploading]
