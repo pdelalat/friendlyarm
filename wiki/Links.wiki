@@ -23,7 +23,7 @@
   * [http://lists.infradead.org/pipermail/linux-arm-kernel/ Linux ARM Kernel (Keep reasonably up to date on kernel issues, search the months with <mini2440 or s3c24**>)]   
   * [http://wiki.davincidsp.com/index.php/Category:Linux Comprehensive Linux resource from TI]
   * [http://cchia-cwp.blogspot.com/search?updated-min=2010-01-01T00%3A00%3A00-08%3A00&updated-max=2011-01-01T00%3A00%3A00-08%3A00&max-results=10 Some excellent HowTos on a wide range of mini2440 topics]
-  * [http://www.sereno-online.com/site/2010/05/01/qt-4-6-2-installation-procedure-for-friendlyarm-mini-2440-board/ Qt 4.6.2 for GNU/Linux on mini2440]
+  * [http://www.sereno-labs.com/qt-4-6-2-installation-procedure-for-friendlyarm-mini-2440-board/ Qt 4.6.2 for GNU/Linux on mini2440]
   * [https://sites.google.com/a/asu.edu/cse423-glad/development-2/documents Micro2440 Tutorials, ranging from recompiling Linux kernel to cross-compiling]
 
 ===Android===
@@ -35,7 +35,7 @@
 
 ===WinCE===
   * [http://www.domodom.fr/spip/index.php?lang=en Mini2440 and WinCE 6.0]
-  * [http://www.sereno-online.com/site/2010/05/11/qt-4-6-2-installation-procedure-friendlyarm-mini-2440-windows-ce-5-0/ Qt 4.6.2 for WinCE5 on Mini2440]
+  * [http://www.sereno-labs.com/qt-4-6-2-installation-procedure-friendlyarm-mini-2440-windows-ce-5-0 Qt 4.6.2 for WinCE5 on Mini2440]
 
 
 ==Tools==
