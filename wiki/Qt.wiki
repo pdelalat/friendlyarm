@@ -8,3 +8,7 @@ http://friendlyarm.googlecode.com/files/qt_lang4.jpg
  # [http://intresting2440.blogspot.com Installing the Tools]
  # [http://farm2440.blogspot.com/2010/07/hello-world-with-gui-application-for.html Creating and Compiling]
  # [http://farm2440.blogspot.com/2010/07/uploading-application-and-creating.html Uploading]
+
+===Qt 4.6 installation===
+ * [http://www.sereno-labs.com/qt-4-6-2-installation-procedure-for-friendlyarm-mini-2440-board on Linux]
+ * [http://www.sereno-labs.com/qt-4-6-2-installation-procedure-friendlyarm-mini-2440-windows-ce-5-0 on WinCE]
