@@ -1,11 +1,11 @@
 ===WinCE 6.0 How to Start===
-[WinCE_HowToStart]
+ * [WinCE_HowToStart]
 
 ===WinCE 6.0 English BSP===
-[EnglishBSP]
+ * [EnglishBSP]
 
 ===Qt 4.6===
  * [http://www.sereno-labs.com/qt-4-6-2-installation-procedure-friendlyarm-mini-2440-windows-ce-5-0 Qt 4.6 on WinCE 5]
 
 ===All files deleted after power off===
-[http://www.friendlyarm.net/forum/topic/151 Forum Thread]
+ * [http://www.friendlyarm.net/forum/topic/151 Forum Thread]
