@@ -20,7 +20,8 @@ The following links will guide you through all these stages, from the generation
   * WinCE drivers:
     [http://www.domodom.fr/spip/A-GPIO-driver-for-mini2440.html?lang=en GPIO], 
     [http://www.domodom.fr/spip/Un-driver-SPI-pour-la-mini2440.html?lang=en SPI], 
-    [http://www.domodom.fr/spip/Utiliser-le-driver-I2C-dans-une.html?lang=en I2C]
+    [http://www.domodom.fr/spip/Utiliser-le-driver-I2C-dans-une.html?lang=en I2C], 
+    [http://code.google.com/p/friendlyarm/downloads/ WiFi]
 
 Note:
 Some versions of the Supervivi bootloader are not compatible with WinCE 6.0 images. 
