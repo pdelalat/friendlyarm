@@ -1,3 +1,5 @@
  * [Supervivi]
 
  * [U-Boot]
+
+ * [http://www.domodom.fr/spip/How-to-start-with-the-mini6410.html Mini6410 Superboot]
