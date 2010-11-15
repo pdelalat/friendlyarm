@@ -55,7 +55,7 @@ On subsequent compilations I got an error saying that my  {{{[kernel]}}}  direct
    now, install the kernel modules
 
 {{{
-[mini2440] # sudo make ARCH=arm O=../../kernel-bin/INSTALL_MOD_PATH=/home/user/mini2440-bootstrap/target/ modules_install
+[mini2440] # sudo make ARCH=arm O=../../kernel-bin/ INSTALL_MOD_PATH=/home/user/mini2440-bootstrap/target/ modules_install
 }}}
 
    strip debug info, if you are worried about the size
