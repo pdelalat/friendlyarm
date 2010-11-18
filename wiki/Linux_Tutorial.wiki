@@ -39,7 +39,7 @@ Depending on permission’s  *sudo*  may be required on some commands.
 [mini2440] # make ARCH=arm O=../../kernel-bin/ mini2440_defconfig
 [mini2440] # make ARCH=arm O=../../kernel-bin/ menuconfig
 }}}
-on subsequent invocations  {{{<Load an alternative configuration file.>}}}  which you have saved as a unique name.  When finished  {{{<Save as an alternative configuration file>}}}  by the name  {{{.config}}} .  Back it up by re-saving as an unique name.
+At this point {{{<Load an alternative configuration file>}}} , for example {{{config_mini2440_n35}}} .  When finished making changes {{{<Save as an alternative configuration file>}}} with the name {{{.config}}} .  Select <Exit> and the compilation should proceed.  When compilation finishes you can save your .config file as something unique for later use.
 
 On subsequent compilations I got an error saying that my  {{{[kernel]}}}  directory was not clean and to do a  {{{mrproper}}} .  I found that this was not good enough and had to do a  {{{make ARCH=arm distclean}}} .
 
