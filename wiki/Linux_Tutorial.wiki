@@ -43,7 +43,8 @@ At this point {{{<Load an alternative configuration file>}}} , for example {{{co
    * configure the kernel to support the wanted file systems and MTD
    * select built-in and loadable kernel modules
 
-When finished making changes {{{<Save as an alternative configuration file>}}} with the name {{{.config}}} .  Select {{{<Exit>}}} and the compilation should proceed.  When compilation finishes you can save your .config file as something unique for later use.
+When finished making changes {{{<Save as an alternative configuration file>}}} with the name {{{.config}}} .  Select {{{<Exit>}}} and the compilation should proceed.
+When compilation finishes you can save your .config file as something unique for later use.
 
 {{{
 [mini2440] # make ARCH=arm O=../../kernel-bin/ -j4
