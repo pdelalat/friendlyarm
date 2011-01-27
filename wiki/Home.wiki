@@ -8,7 +8,5 @@
     * [WinCE WinCE]
     * [NoOS NoOS]
 
-  * [SoftwareLibraries Software Libraries]
-
   * [References References]
     * [Links Links]
