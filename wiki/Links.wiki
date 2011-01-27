@@ -46,3 +46,14 @@
 ==Projects==
   * [http://www.rockbox.org/wiki/Mini2440Port Rockbox for Mini2440]
   * [http://code.google.com/p/rt-thread RT-Thread (RTOS)]
+
+
+== Development Tools==
+=== Integrated Development Environments ===
+ * [http://www.eclipse.org/ Eclipse - IDE]
+
+=== Application Frameworks ===
+  * [http://qt.nokia.com Qt - GUI Application Framework]
+
+=== Libraries ===
+  * [http://qwt.sourceforge.net/ Qwt - GUI Components and utility classes (2D plot widget, scales, sliders, dials, compasses, thermometers, wheels and knobs)]
