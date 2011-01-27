@@ -1,4 +1,4 @@
- * [Mini2440 Supervivi]
+ * [Supervivi Mini2440 Supervivi]
 
  * [U-Boot]
 
