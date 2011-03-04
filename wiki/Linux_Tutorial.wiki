@@ -39,7 +39,7 @@ Depending on permission’s  *sudo*  may be required on some commands.
 [mini2440] # make ARCH=arm O=../../kernel-bin/ mini2440_defconfig
 [mini2440] # make ARCH=arm O=../../kernel-bin/ menuconfig
 }}}
-At this point {{{<Load an alternative configuration file>}}} , for example {{{config_mini2440_n35}}} . N.B. this will create a YAFFS2 file system.
+At this point {{{<Load an alternative configuration file>}}} , for example {{{../config_mini2440_n35}}} . N.B. this will create a YAFFS2 file system.
    * configure the kernel to support the wanted file systems and MTD
    * select built-in and loadable kernel modules
 
