@@ -128,17 +128,30 @@ Create the following directories:
 
 I suspect that the two mknod entries are not required as mdev.conf (in the following example) seems to either create these or over-write them.
 
-Use the /etc directory from this example rootfs (rootfsjffs2.gz).
+Use the /etc directory from this example rootfs.
 
-http://blog.leshak.ru/english/pages/how-to-install-u-boot-linux-2629-rootfsjffs2-busybox-1132-into-nand-qq2440/
+http://friendlyarm.googlecode.com/files/rootfsjffs2.gz
 
-Note: /etc gets mounted into ram so don’t expect any changes you make to files in /etc to survive a re-boot!  
+Note: /etc gets mounted into ram so don’t expect any changes you make to files in /etc to survive a re-boot! 
+
+Don't use anything else from this file.  There are probably much better ways to make a rootfs.  Have a look here:
+
+http://rootfs.wordpress.com/2010/04/23/the-busybox-file-system/
+
+In fact he has several good tutorials.
 
 ==Add the Shared Libraries Applications will Require==
 
 {{{
 [mini2440-bootstrap] # cd /target/lib
 [lib] # cp –r /home/user/mini2440-bootstrap/arm-2008q3/arm-none-linux-gnueabi/libc/lib/* .
+}}}
+
+The libraries in this folder are for v5TE.  For the v4T architecture I think the files wanted are:
+
+{{{
+[mini2440-bootstrap] # cd /target/lib
+[lib] # cp –r /home/user/mini2440-bootstrap/arm-2008q3/arm-none-linux-gnueabi/libc/armv4t/lib/* .
 }}}
 
 strip debug info from all libs, if you are worried about the size
