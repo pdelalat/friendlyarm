@@ -143,22 +143,17 @@ In fact he has several good tutorials.
 ==Add the Shared Libraries Applications will Require==
 
 {{{
-[mini2440-bootstrap] # cd /target/lib
+[mini2440-bootstrap] # cd /target
 [lib] # cp –r /home/user/mini2440-bootstrap/arm-2008q3/arm-none-linux-gnueabi/libc/lib/* .
 }}}
 
 The libraries in this folder are for v5TE.  For the v4T architecture I think the files wanted are:
 
 {{{
-[mini2440-bootstrap] # cd /target/lib
+[mini2440-bootstrap] # cd /target
 [lib] # cp –r /home/user/mini2440-bootstrap/arm-2008q3/arm-none-linux-gnueabi/libc/armv4t/lib/* .
 }}}
 
-strip debug info from all libs, if you are worried about the size
-
-{{{
-[lib] # /home/user/mini2440-bootstrap/arm-2008q3/arm-none-linux-gnueabi/bin/strip -d *
-}}}
 
 ==Creating a JFFS2 Root File System==
 
