@@ -1,0 +1,5 @@
+ * 2440test and uCos2 from [http://www.friendlyarm.net/downloads FA download page]
+
+ * [http://code.google.com/p/rt-thread RT-Thread (RTOS)]
+
+ * [http://code.google.com/p/startos/ STARTOS (small OS)]
