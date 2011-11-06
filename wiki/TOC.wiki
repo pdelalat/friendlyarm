@@ -5,7 +5,7 @@
 [Software Software]
   * [Bootloader Bootloader]
     * [Supervivi Supervivi]
-    * [U-Boot U-Boot]
+    * [UBoot U-Boot]
   * [Linux Linux]
     * [Android Android]
     * [Qt Qt/Qtopia]
