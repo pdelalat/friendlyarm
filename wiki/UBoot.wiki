@@ -1,3 +1,3 @@
- * [http://bill.station51.net/index.php?post/2010/01/16/U-Boot-on-Mini2440 U-Boot and mini2440]
+ * [http://bill.station51.net/index.php?tag/u-boot U-Boot and mini2440]
 
  * [http://barebox.org/documentation/barebox-2011.05.0/mini2440.html barebox and mini2440]
