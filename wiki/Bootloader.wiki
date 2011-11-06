@@ -1,5 +1,11 @@
- * [Supervivi Mini2440 Supervivi]
+= Mini2440 and Micro2440 =
 
- * [UBoot Mini2440 U-Boot and barebox]
+==Supervivi ==
 
+== U-Boot and barebox ==
+ * [http://bill.station51.net/index.php?tag/u-boot U-Boot and mini2440]
+ * [http://barebox.org/documentation/barebox-2011.05.0/mini2440.html barebox and mini2440]
+
+
+= Mini6410 and Tiny6410 =
  * [http://www.domodom.fr/spip/How-to-start-with-the-mini6410.html?lang=en Mini6410 Superboot]
