@@ -1,5 +1,0 @@
- * [http://www.friendlyarm.net/dl.php?file=download.pdf Guide for new Supervivi (Bios 2.0)]
-
- * [http://www.friendlyarm.net/dl.php?file=linux_download.pdf Guide for old Supervivi]
-
- * [http://www.friendlyarm.net/downloads#software Supervivi, DNW, H-JTAG Download]
