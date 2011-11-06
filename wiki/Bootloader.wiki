@@ -1,3 +1,5 @@
  * [Supervivi Mini2440 Supervivi]
 
+ * [UBoot Mini2440 U-Boot and barebox]
+
  * [http://www.domodom.fr/spip/How-to-start-with-the-mini6410.html?lang=en Mini6410 Superboot]
