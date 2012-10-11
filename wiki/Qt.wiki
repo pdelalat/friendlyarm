@@ -7,7 +7,7 @@
 
 
 ===Qt 4.8.3 installation===
- * [http://www.sereno-labs.com/Qt_4.8.3_installation_procedure_FriendlyARM_mini6410_Linux]
+ * [http://www.sereno-labs.com/Qt_4.8.3_installation_procedure_FriendlyARM_mini6410_Linux on Linux]
 
 ===Qt 4.6.2 installation===
  * [http://www.sereno-labs.com/qt-4-6-2-installation-procedure-for-friendlyarm-mini-2440-board on Linux]
